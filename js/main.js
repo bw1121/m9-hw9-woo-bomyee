@@ -4,9 +4,9 @@ $(document).ready(function() {
         navigation: {
             'textColor': '#fff',
             'bulletsColor': '#fff',
-            'position': 'right',
-            'tooltips': ['Home', 'Portfolio Item 1', 'Portfolio Item 2', 'Portfolio Item 3', 'Learn More']
+            'position': 'right'
         },
-        loopBottom: 'true'
+        loopBottom: 'true',
+        loopTop: 'true'
     });
 });
