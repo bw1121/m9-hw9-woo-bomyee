@@ -2,7 +2,8 @@
     margin: 0;
     border: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    color: #484747;
 }
 
 #pp-nav li .active span {
@@ -16,14 +17,12 @@
 
 h1 {
     font-size: 3rem;
-    color: #484747;
     padding-bottom: 1rem;
     padding: 0 1rem;
     text-transform: uppercase;
 }
 
 .subhead {
-    color: #484747;
     padding: 0.5rem;
     font-size: 1.75rem;
 }
@@ -50,8 +49,60 @@ h1 {
     fill: #D0DFF2;
 }
 
+/* ***** PORTFOLIO ITEM SECTIONS ***** */
+
+.copy {
+    padding: 5% 10% 5% 5%;
+}
+
+.eyebrow {
+    padding-bottom: 0.3rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+img {
+    width: 80%;
+}
+
+/* ***** START MIN-WIDTH 768 ***** */
+
 @media (min-width: 768px) {
     .custom-shape-divider-top-1595603050 svg {
         height: 200px;
+    }
+}
+
+/* ***** START MIN-WIDTH 1024 ***** */
+@media (min-width: 1024px) {
+    .split {
+        flex-direction: row;
+    }
+    .copy {
+        width: 30%;
+        padding: 5%;
+    }
+    .image {
+        width: 55%;
+        padding-right: 5%;
+        display: inline-block;
+    }
+    img {
+        width: 100%;
     }
 }

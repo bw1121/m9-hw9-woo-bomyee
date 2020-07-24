@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#pagepiling').pagepiling({
-        sectionsColor: ['#BDCFF2', '#D0DFF2', '#D8EBF2', '#B6E7F2', '#BDF2D0'],
+        sectionsColor: ['#BDCFF2', '#ffe8f1', '#ffecb1', '#d6c9e8', '#BDCFF2'],
         navigation: {
             'textColor': '#fff',
             'bulletsColor': '#fff',
