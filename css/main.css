@@ -8,3 +8,50 @@
 #pp-nav li .active span {
     background-color: #fff;;
 }
+
+/* ***** INTRO SECTION ***** */
+#intro {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #484747;
+    padding-bottom: 1rem;
+    padding: 0 1rem;
+    text-transform: uppercase;
+}
+
+.subhead {
+    color: #484747;
+    padding: 0.5rem;
+    font-size: 1.75rem;
+}
+
+/* Shape divider referenced https://www.shapedivider.app/ */
+
+.custom-shape-divider-top-1595603050 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1595603050 svg {
+    position: relative;
+    display: block;
+    width: calc(107% + 1.3px);
+    height: 130px;
+}
+
+.custom-shape-divider-top-1595603050 .shape-fill {
+    fill: #D0DFF2;
+}
+
+@media (min-width: 768px) {
+    .custom-shape-divider-top-1595603050 svg {
+        height: 200px;
+    }
+}
