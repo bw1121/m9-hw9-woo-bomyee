@@ -3,7 +3,7 @@
     border: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    color: #484747;
+    color: #fff;
 }
 
 #pp-nav li .active span {
@@ -11,7 +11,7 @@
 }
 
 /* ***** INTRO SECTION ***** */
-#intro {
+.intro {
     text-align: center;
 }
 
@@ -25,6 +25,10 @@ h1 {
 .subhead {
     padding: 0.5rem;
     font-size: 1.75rem;
+}
+
+.intro .subhead {
+    color: #3dbeca;
 }
 
 /* Shape divider referenced https://www.shapedivider.app/ */
@@ -46,7 +50,7 @@ h1 {
 }
 
 .custom-shape-divider-top-1595603050 .shape-fill {
-    fill: #D0DFF2;
+    fill: #3dbeca;
 }
 
 /* ***** PORTFOLIO ITEM SECTIONS ***** */
@@ -58,6 +62,7 @@ h1 {
 .eyebrow {
     padding-bottom: 0.3rem;
     text-transform: uppercase;
+    color: #3dbeca;
 }
 
 h2 {
@@ -88,6 +93,33 @@ img {
 
 a {
     font-weight: 700;
+    color: #3dbeca;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.custom-shape-divider-bottom-1595610537 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1595610537 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1595610537 .shape-fill {
+    fill: #3DBECA;
 }
 
 /* ***** START MIN-WIDTH 768 ***** */
@@ -95,6 +127,12 @@ a {
 @media (min-width: 768px) {
     .custom-shape-divider-top-1595603050 svg {
         height: 200px;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    .copy p {
+        font-size: 1.2rem;
     }
 }
 
